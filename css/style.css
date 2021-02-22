@@ -1,0 +1,226 @@
+.main{
+  padding: 0;
+}
+.navbar{
+  text-align: center !important;
+  float: right;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  /* overflow: hidden; */
+}
+
+.container-fluid
+{
+  padding: 0 0;
+}
+.navbar-brand a
+{
+  float: left;
+  margin-left: 50px;
+}
+.navbar-brand span{
+  color: #1fa12e !important;
+}
+.navbar-brand h1 b{
+  float: left !important;
+}
+.dropdown-menu
+{
+  text-align: center ;
+}
+.navbar .nav-item .nav-link:hover {
+  transition: .3s !important;
+  color: #1fa12e;
+}
+.btn1
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding:5px 30px 5px 30px;
+  background-color: #1fa12e;
+  color: white;
+  border: 2px solid;
+  border-radius: 25px;
+
+}
+.btn1:hover{
+  background-color: white;
+  color: #1fa12e;
+  border: 2px solid;
+  border-color: #1fa12e;
+  transition: .5s;
+
+}
+
+.nav-link{
+  font-weight: bold;
+}
+.first-div
+{
+  list-style: none;
+  margin-top: 25px;
+  color: floralwhite;
+}
+
+.second-div
+{
+  list-style: none;
+  color: white;
+  margin-top: 25px;
+}
+.row .second-div a{
+  color: darkgrey;
+  text-decoration: none;
+}
+.row .second-div a:hover
+{
+	color: white;
+	transition: 0.2s;
+}
+.third-div{
+   list-style: none;
+  color: white;
+  margin-top: 25px;
+}
+.row .third-div a{
+  color: darkgrey;
+  text-decoration: none;
+}
+.row .third-div a:hover
+{
+	color: white;
+	transition: 0.2s;
+}
+.fourth-div{
+   list-style: none;
+  color: white;
+  margin-top: 25px;
+}
+.fourth-div .f-d-c{
+  color: darkgrey;
+}
+.row .fourth-div a{
+  color: darkgrey;
+  text-decoration: none;
+}
+.row .fourth-div a:hover
+{
+	color: white;
+	transition: 0.2s;
+}
+.footer{
+  width: 100%;
+}
+
+footer{
+  width: 100% !important;
+}
+
+.bottom-copies{
+  color: darkgrey;
+  width: 100% !important;
+}
+.bottom-copies a
+{
+  color: lightgray;
+  text-decoration: none;
+}
+.bottom-copies a:hover
+{
+	color: white;
+	transition: 0.2s;
+}
+.second-part{
+  margin-top: 50px;
+}
+.btn-read-more
+{
+  margin-left: 15px;
+  padding:5px 30px 5px 30px;
+  background-color: #1fa12e;
+  color: white;
+  border: 2px solid;
+  border-color: #1fa12e;
+  border-radius: 25px;
+
+}
+.btn-read-more:hover{
+  background-color: white;
+  color: #1fa12e;
+  border: 2px solid;
+  border-color: #1fa12e;
+  transition: .5s;
+}
+.div-third-part{
+  margin-top: 50px;
+}
+.div-third-part .row .third-list{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.div-fourth-part{
+  margin-top: 50px;
+}
+
+.div-fourth-part .row .imges{
+  border-radius: 10px;
+
+}
+.lekheko1{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+}
+.lekheko2{
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  color: white;
+}
+.div-sixth-part .images{
+  border-radius: 10px;
+  filter: brightness(50%);
+}
+.div-sixth-part .sixth-small-heading:hover{
+  color: #1fa12e;
+}
+.tractor{
+  width: 100%;
+}
+.lekheko3{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  color: black;
+}
+
+.peoples
+{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #1fa12e; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 25px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #1c7430;
+  transition: .2s;
+}
